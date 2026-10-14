@@ -2,8 +2,18 @@
 
 [ext_resource type="AudioStream" uid="uid://dngn4cbwj82a8" path="res://assets/audio/Hong Kong 97 theme (Remastered) [YrlJum5u4uE].mp3" id="1_nnsk1"]
 
+[sub_resource type="QuadMesh" id="QuadMesh_nnsk1"]
+
 [node name="World" type="Node2D" unique_id=204191580]
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1014976277]
 stream = ExtResource("1_nnsk1")
 autoplay = true
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=1720159843]
+modulate = Color(0.27374834, 0.44375828, 0.74449027, 1)
+position = Vector2(574.75, 322.25)
+scale = Vector2(1146.5, 645.5)
+mesh = SubResource("QuadMesh_nnsk1")
+
+[node name="PlayerSprite" type="Sprite2D" parent="." unique_id=1019878395]
