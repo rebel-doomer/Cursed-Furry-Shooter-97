@@ -11,7 +11,7 @@ stream = ExtResource("1_nnsk1")
 autoplay = true
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=1720159843]
-modulate = Color(0.27374834, 0.44375828, 0.74449027, 1)
+modulate = Color(0.1254902, 0.16078432, 0.09803922, 1)
 position = Vector2(574.75, 322.25)
 scale = Vector2(1146.5, 645.5)
 mesh = SubResource("QuadMesh_nnsk1")
